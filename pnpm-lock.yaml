@@ -21,7 +21,7 @@ importers:
         specifier: ^0.28.1
         version: 0.28.1
       obsidian:
-        specifier: latest
+        specifier: ^1.13.1
         version: 1.13.1(@codemirror/state@6.5.0)(@codemirror/view@6.38.6)
       tslib:
         specifier: ^2.8.0
