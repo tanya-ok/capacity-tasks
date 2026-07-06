@@ -1,4 +1,11 @@
-import { ItemView, Plugin, PluginSettingTab, Setting, TFile, WorkspaceLeaf } from 'obsidian';
+import {
+	ItemView,
+	Plugin,
+	PluginSettingTab,
+	Setting,
+	TFile,
+	type WorkspaceLeaf,
+} from 'obsidian';
 
 interface CapacityTasksSettings {
 	dailyNoteFolder: string;
