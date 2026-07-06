@@ -49,7 +49,7 @@ export default class CapacityTasksPlugin extends Plugin {
 
 		this.addCommand({
 			id: 'open-view',
-			name: 'Show tasks within today\'s budget',
+			name: "Show tasks within today's budget",
 			callback: () => void this.activateView(),
 		});
 
