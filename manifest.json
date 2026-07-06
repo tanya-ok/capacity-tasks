@@ -1,0 +1,10 @@
+{
+	"id": "capacity-tasks",
+	"name": "Capacity Tasks",
+	"version": "0.1.0",
+	"minAppVersion": "1.5.0",
+	"description": "Shows only the tasks that fit today's energy budget. Reads a capacity level from your daily note and filters tasks by declared cost.",
+	"author": "tanya-ok",
+	"authorUrl": "https://github.com/tanya-ok",
+	"isDesktopOnly": true
+}
