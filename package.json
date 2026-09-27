@@ -1,24 +1,28 @@
 {
-	"name": "capacity-tasks",
-	"version": "0.1.0",
-	"description": "Obsidian plugin: capacity-gated task filtering. Working name, pre-release.",
-	"main": "main.js",
-	"type": "module",
-	"scripts": {
-		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"check": "biome check src"
-	},
-	"keywords": [],
-	"author": "tanya-ok",
-	"license": "MIT",
-	"devDependencies": {
-		"@biomejs/biome": "^2.5.2",
-		"@types/node": "^26.1.0",
-		"builtin-modules": "^5.3.0",
-		"esbuild": "^0.28.1",
-		"obsidian": "^1.13.1",
-		"tslib": "^2.8.0",
-		"typescript": "^6.0.3"
-	}
+  "name": "capacity-tasks",
+  "version": "0.1.0",
+  "description": "Obsidian plugin: capacity-gated task filtering. Working name, pre-release.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "check": "biome check src"
+  },
+  "keywords": [],
+  "author": "tanya-ok",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.2",
+    "@types/node": "^26.1.0",
+    "builtin-modules": "^5.3.0",
+    "esbuild": "^0.28.1",
+    "obsidian": "^1.13.1",
+    "tslib": "^2.8.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=26"
+  },
+  "packageManager": "pnpm@10.33.2"
 }
